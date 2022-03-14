@@ -9,3 +9,5 @@ require (
 	github.com/google/pprof v0.0.0-20211001005136-7fe48b4c820b
 	golang.org/x/sys v0.0.0-20211003122950-b1ebd4e1001c // indirect
 )
+
+replace github.com/agnivade/wasmbrowsertest => github.com/realPy/wasmbrowsertest
