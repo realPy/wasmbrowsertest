@@ -1,4 +1,4 @@
-module github.com/realpy/wasmbrowsertest
+module github.com/realPy/wasmbrowsertest
 
 go 1.12
 
