@@ -107,6 +107,7 @@ license that can be found in the LICENSE file.
 
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="connect-src 'self' https://* http://*;">
 	<title>Go wasm</title>
 </head>
 
@@ -116,6 +117,7 @@ license that can be found in the LICENSE file.
 	<script src="https://cdn.jsdelivr.net/npm/text-encoding@0.7.0/lib/encoding.min.js"></script>
 	(see https://caniuse.com/#feat=textencoder)
 	-->
+	
 	<script src="wasm_exec.js"></script>
 	<script>
 		if (!WebAssembly.instantiateStreaming) { // polyfill
