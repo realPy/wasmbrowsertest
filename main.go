@@ -92,6 +92,10 @@ func main() {
 		)
 	}
 
+	opts = append(opts,
+		chromedp.Flag("disable-search-engine-choice-screen", true),
+	)
+
 	// WSL needs the GPU disabled. See issue #10
 	if runtime.GOOS == "linux" && isWSL() {
 		opts = append(opts,
